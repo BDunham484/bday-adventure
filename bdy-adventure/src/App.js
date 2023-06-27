@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from './pages/Home'
-
+import PageOne from "./pages/PageOne";
 
 function App() {
   return (
@@ -15,10 +15,10 @@ function App() {
                     path="/"
                     element={<Home />}
                   />
-                  {/* <Route
-                    path="/login"
-                    element={<Login />}
-                  /> */}
+                  <Route
+                    path="/PageOne"
+                    element={<PageOne />}
+                  />
                   {/* <Route
                     path="/signup"
                     element={<Signup />}

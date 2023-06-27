@@ -37,6 +37,7 @@ code {
   border-radius: 50px;
   color: antiquewhite;
   letter-spacing: 3px;
+  text-align: center;
   box-shadow: 5px 5px 5px rgba(0,0,0,0.4)
 }
 
@@ -46,6 +47,7 @@ code {
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
+  text-align: center;
 }
 
 h1 {
@@ -67,6 +69,9 @@ h1 {
 .main-img-wrapper img {
   border-radius: 50px 50px 10px 10px;
   border: 50px groove maroon;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.4);
+  width: 100px;
+  height: auto;
 }
 
 .begin-button {
@@ -82,4 +87,26 @@ h1 {
 
 .begin-button:hover {
   cursor: pointer;
+}
+
+.button-wrapper {
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.page-text {
+  width: 90%;
+  text-align: center;
+}
+
+@media screen and 
+(max-device-width: 767px) and 
+(orientation: portrait) {
+  .main-img-wrapper img {
+    width: 350px;
+    height: auto;
+    border: 25px groove maroon;
+  }
 }

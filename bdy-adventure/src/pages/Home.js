@@ -1,8 +1,16 @@
 import IMG_3085 from '../images/IMG_3085.png'
+import { useNavigate } from "react-router-dom"
 
 
 
 const Home = () => {
+
+    let nav = useNavigate();
+
+    const startAdventure = () => {
+        nav('/PageOne')
+    }
+
     return (
         <div className="home-wrapper">
             <div className="choose-wrapper">
@@ -28,7 +36,7 @@ const Home = () => {
             <p>
                 Illustrations by a robot brain
             </p>
-            <button className='begin-button'>
+            <button className='begin-button' onClick={startAdventure}>
                 Begin Adventure
             </button>
 
