@@ -1,6 +1,9 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from './pages/Home'
 import PageOne from "./pages/PageOne";
+import PageTwo from "./pages/PageTwo";
+import PageThree from "./pages/PageThree";
+import PageFour from "./pages/PageFour";
 
 function App() {
   return (
@@ -19,10 +22,18 @@ function App() {
                     path="/PageOne"
                     element={<PageOne />}
                   />
-                  {/* <Route
-                    path="/signup"
-                    element={<Signup />}
-                  /> */}
+                  <Route
+                    path="/PageTwo"
+                    element={<PageTwo />}
+                  />
+                  <Route
+                    path="/PageThree"
+                    element={<PageThree />}
+                  />
+                  <Route
+                    path="/PageFour"
+                    element={<PageFour />}
+                  />
                   {/* <Route path="/profile">
                     <Route path=":username" element={<Profile />} />
                     <Route path="" element={<Profile />} />

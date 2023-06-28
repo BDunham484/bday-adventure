@@ -1,13 +1,14 @@
-import sleep from '../images/sleep.png'
+import path from '../images/path.png'
 import { useNavigate } from "react-router-dom"
 
 
-const PageOne = () => {
+const PageFour = () => {
 
     const nav = useNavigate();
 
     const nextPage = () => {
-        nav('/PageTwo')
+        // nav('/PageOne')
+        console.log('clicked');
     }
 
     const back = () => {
@@ -17,13 +18,16 @@ const PageOne = () => {
     return (
         <div className='home-wrapper'>
             <div className="main-img-wrapper">
-                <img src={sleep} alt="Bob arrives" />
+                <img src={path} alt="choose your path" />
             </div>
             <p className='page-text'>
-            Once upon a time, on a sunny morning, Sarah woke up to find her loyal companion, Bob, wagging his tail excitedly. Bob seemed eager to tell her something important. As Sarah rubbed the sleep from her eyes, Bob crawled up on her chest and sneezed in her face, as if trying to convey a message. 
+            Gather sustenance to sustain you on your journey (Brunch)
             </p>
             <p className='page-text'>
-            “Good morning, Best Friend,” Sarah said with a smile. “What’s the big secret you have for me today?”
+            Gather the ancient tome to ward off insanity while you traverse the void (Bookstore)
+            </p>
+            <p className='page-text'>
+            Gather armor to keep your eyes from melting while you stare into the future (It’s so bright)
             </p>
             <div className='button-wrapper'>
                 <button className='begin-button' onClick={back}>
@@ -37,4 +41,4 @@ const PageOne = () => {
     )
 }
 
-export default PageOne
+export default PageFour
