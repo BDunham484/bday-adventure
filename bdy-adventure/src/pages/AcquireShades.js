@@ -1,20 +1,16 @@
-import { useContext } from "react";
+import { useState } from "react";
 import { useNavigate } from "react-router-dom"
-import { StateContext } from "../utils/Context";
 import path from '../images/path.png'
 
 
 
+const AcquireShades = () => {
 
-const PageFour = () => {
-
-    const { shades, setShades, eaten, setEaten } = useContext(StateContext);
-    console.log('all dem foos')
-    console.log(shades, setShades, eaten, setEaten)
-
+    const [ shades, setShades ] = useState(false);
+    const [ eaten, setEaten ] = useState(false);
 
     const nav = useNavigate();
-
+    
     const back = () => {
         nav(-1);
     }
@@ -39,9 +35,8 @@ const PageFour = () => {
     }
 
     const nextShades = () => {
-        console.log('Shades Acquired');
+        console.log('clicked');
         setShades(true);
-        // nav('/AcquireShades')
     }
 
 
@@ -53,23 +48,21 @@ const PageFour = () => {
                 <img src={path} alt="choose your path" />
             </div>
             <div className='page-text'>
-                <button className='begin-button' onClick={nextBrunch}>
-                    Gather sustenance to sustain you on your journey
-                </button>
+            <button className='begin-button' onClick={nextBrunch}>
+            Gather sustenance to sustain you on your journey
+            </button>
             </div>
             <div className='page-text'>
-                <button className='begin-button' onClick={nextTome}>
-                    Gather the ancient tome to ward off insanity while you traverse the void
+            <button className='begin-button' onClick={nextTome}>
+            Gather the ancient tome to ward off insanity while you traverse the void
 
                 </button>
             </div>
             <div className='page-text'>
-                {!shades &&
-                    <button className='begin-button' onClick={nextShades}>
-                        Gather armor to keep your eyes from melting while you stare into the future (It’s so bright)
+            <button className='begin-button' onClick={nextShades}>
+            Gather armor to keep your eyes from melting while you stare into the future (It’s so bright)
 
-                    </button>
-                }
+                </button>
             </div>
             <div className='button-wrapper'>
                 <button className='begin-button' onClick={back}>
@@ -80,4 +73,4 @@ const PageFour = () => {
     )
 }
 
-export default PageFour
+export default AcquireShades

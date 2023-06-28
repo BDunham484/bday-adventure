@@ -1,14 +1,18 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
+import { StateProvider } from "./utils/Context";
 import Home from './pages/Home'
 import PageOne from "./pages/PageOne";
 import PageTwo from "./pages/PageTwo";
 import PageThree from "./pages/PageThree";
 import PageFour from "./pages/PageFour";
+import AcquireShades from "./pages/AcquireShades";
 
 function App() {
   return (
-    <div className="App">
-      <Router>
+    <StateProvider>
+      <div className="App">
+        <Router>
           <div>
             <div>
               {/* <Header /> */}
@@ -34,6 +38,10 @@ function App() {
                     path="/PageFour"
                     element={<PageFour />}
                   />
+                  <Route
+                    path="/AcquireShades"
+                    element={<AcquireShades />}
+                  />
                   {/* <Route path="/profile">
                     <Route path=":username" element={<Profile />} />
                     <Route path="" element={<Profile />} />
@@ -50,7 +58,9 @@ function App() {
             {/* <Footer /> */}
           </div>
         </Router>
-    </div>
+      </div>
+    </StateProvider>
+
   );
 }
 
