@@ -10,8 +10,7 @@ const PageFour = () => {
 
     const { shades, setShades, eaten, setEaten } = useContext(StateContext);
     console.log('all dem foos')
-    console.log(shades, setShades, eaten, setEaten)
-
+    console.log(shades, eaten)
 
     const nav = useNavigate();
 
@@ -41,7 +40,7 @@ const PageFour = () => {
     const nextShades = () => {
         console.log('Shades Acquired');
         setShades(true);
-        // nav('/AcquireShades')
+        nav('/AcquireShades')
     }
 
 

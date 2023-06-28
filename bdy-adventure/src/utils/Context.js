@@ -11,12 +11,12 @@ const StateProvider = ({ children }) => {
     const [shades, setShades] = useState(false);
     const [eaten, setEaten] = useState(false);
 
-    return <Provider value={(
+    return <Provider value={{
         shades,
         setShades,
         eaten,
         setEaten
-    )} >
+    }}>
         {children}
     </Provider>
 };
