@@ -7,6 +7,9 @@ import PageTwo from "./pages/PageTwo";
 import PageThree from "./pages/PageThree";
 import PageFour from "./pages/PageFour";
 import AcquireShades from "./pages/AcquireShades";
+import BurnEyes from "./pages/BurnEyes";
+import Starvation from "./pages/Starvation";
+import Brunch from "./pages/Brunch";
 
 function App() {
   return (
@@ -41,6 +44,18 @@ function App() {
                   <Route
                     path="/AcquireShades"
                     element={<AcquireShades />}
+                  />
+                  <Route
+                    path="/BurnEyes"
+                    element={<BurnEyes />}
+                  />
+                  <Route
+                    path="/Starvation"
+                    element={<Starvation />}
+                  />
+                  <Route
+                    path="/Brunch"
+                    element={<Brunch />}
                   />
                   {/* <Route path="/profile">
                     <Route path=":username" element={<Profile />} />

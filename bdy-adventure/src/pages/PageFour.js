@@ -9,8 +9,8 @@ import path from '../images/path.png'
 const PageFour = () => {
 
     const { shades, setShades, eaten, setEaten } = useContext(StateContext);
-    console.log('all dem foos')
-    console.log(shades, eaten)
+    // console.log('all dem foos')
+    // console.log(shades, eaten)
 
     const nav = useNavigate();
 
@@ -20,18 +20,18 @@ const PageFour = () => {
 
     const nextBrunch = () => {
         if (!shades) {
-            console.log('you dead')
+            nav('/BurnEyes')
         } else {
-            console.log("let's go to eat")
             setEaten(true);
+            nav('/Brunch')
         }
     }
 
     const nextTome = () => {
         if (!shades) {
-            console.log('you dead')
+            nav('/BurnEyes')
         } else if (!eaten) {
-            console.log("you've starved to death")
+            nav('/Starvation')
         } else {
             console.log("let's go to the book store")
         }
@@ -52,9 +52,11 @@ const PageFour = () => {
                 <img src={path} alt="choose your path" />
             </div>
             <div className='page-text'>
-                <button className='begin-button' onClick={nextBrunch}>
-                    Gather sustenance to sustain you on your journey
-                </button>
+                {!eaten &&
+                    <button className='begin-button' onClick={nextBrunch}>
+                        Gather sustenance to sustain you on your journey
+                    </button>
+                }
             </div>
             <div className='page-text'>
                 <button className='begin-button' onClick={nextTome}>
