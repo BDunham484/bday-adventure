@@ -33,7 +33,7 @@ const PageFour = () => {
         } else if (!eaten) {
             nav('/Starvation')
         } else {
-            console.log("let's go to the book store")
+            nav('/Library')
         }
     }
 
