@@ -19,10 +19,10 @@ const Library = () => {
             <img src={library} alt="enter the library" />
         </div>
         <p className='page-text'>
-        Curious and intrigued, Sarah knew she had to follow Bob’s lead. She set out on a path that would take her to the dwelling of the wise and mysterious wizard, Azgarothetoth. 
+        "The journey before you is long and tedious. One's mind need be protected from nefarious magic as you set forth. Take your time and select the only the right tome to steel your mind"
         </p>
         <p className='page-text'>
-        “Greetings, Sarah, “ the wizard spoke in a voice filled with wisdom.  “To acquire the treasure you seek, you must prove your mettle.  Join me for a series of tasks that will lead you to glory. Each task will provide you with an item that will advance your quest and make your journey more enjoyable. The tasks that are laid before you are…”
+        Sarah and Bob stepped forward into an ancient codex depository. Endless rows of books splayed out before them.  "Take your time with your decision. You will know which book to choose as it will speak to you".  At Azagthothetoth's urging, Sarah and Bob began their search...  
         </p>
         <div className='button-wrapper'>
             <button className='begin-button' onClick={back}>
