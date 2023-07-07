@@ -11,6 +11,7 @@ import BurnEyes from "./pages/BurnEyes";
 import Starvation from "./pages/Starvation";
 import Brunch from "./pages/Brunch";
 import Library from "./pages/Library";
+import PageFive from "./pages/PageFive";
 
 function App() {
   return (
@@ -61,6 +62,10 @@ function App() {
                   <Route
                     path="/Library"
                     element={<Library />}
+                  />
+                  <Route
+                    path="/PageFive"
+                    element={<PageFive />}
                   />
                   {/* <Route path="/profile">
                     <Route path=":username" element={<Profile />} />
