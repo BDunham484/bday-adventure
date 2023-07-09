@@ -33,9 +33,6 @@ const Home = () => {
             <div className="main-img-wrapper">
                 <img src={IMG_3085} alt="girl and her dog" />
             </div>
-            <p>
-                Illustrations by a robot brain
-            </p>
             <button className='begin-button' onClick={startAdventure}>
                 Begin Adventure
             </button>
