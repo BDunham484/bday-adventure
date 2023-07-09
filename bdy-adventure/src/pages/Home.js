@@ -1,4 +1,4 @@
-import IMG_3085 from '../images/IMG_3085.png'
+import cover from '../images/cover.png'
 import { useNavigate } from "react-router-dom"
 
 
@@ -31,7 +31,7 @@ const Home = () => {
                 </h3>
             </div>
             <div className="main-img-wrapper">
-                <img src={IMG_3085} alt="girl and her dog" />
+                <img src={cover} alt="girl and her dog" />
             </div>
             <button className='begin-button' onClick={startAdventure}>
                 Begin Adventure
