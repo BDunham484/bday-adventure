@@ -6,8 +6,7 @@ const PageFive = () => {
     const nav = useNavigate();
 
     const nextPage = () => {
-        // nav('/PageFour')
-        console.log('next page')
+        nav('/PageSix')
     }
 
     const back = () => {
