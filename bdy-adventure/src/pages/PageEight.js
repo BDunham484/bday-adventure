@@ -18,7 +18,7 @@ const PageEight = () => {
                 <img src={bobAndSarah} alt="Bob and Sarah" />
             </div>
             <p className='page-text'>
-                Azagthothetoth turns to Sarah and spoke with a grin, "You have completed your quest! Now go forth and enjoy your reward!"
+                Azgarothetoth turns to Sarah and spoke with a grin, "You have completed your quest! Now go forth and enjoy your reward!"
             </p>
             <p className='page-text'>
                 With their challenges behind them and Tina and Amy's event in sight, Bob and Sarah took flight and began their long journey together...

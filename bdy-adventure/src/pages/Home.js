@@ -21,7 +21,7 @@ const Home = () => {
                     YOU'RE THE STAR OF THE STORY!
                 </h2>
                 <h2>
-                    CHOOSE FROM A COUPLE POSSIBLE ENDINGS
+                    CHOOSE FROM ONE POSSIBLE ENDING
                 </h2>
                 <h1>
                     THE MYSTERY OF THE BIRTHDAY SURPRISE

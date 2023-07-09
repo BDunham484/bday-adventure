@@ -22,7 +22,7 @@ const Library = () => {
         "The journey before you is long and tedious. One's mind need be protected from nefarious magic as you set forth. Take your time and select the only the right tome to steel your mind"
         </p>
         <p className='page-text'>
-        Sarah and Bob stepped forward into an ancient codex depository. Endless rows of books splayed out before them.  "Take your time with your decision. You will know which book to choose as it will speak to you".  At Azagthothetoth's urging, Sarah and Bob began their search...  
+        Sarah and Bob stepped forward into an ancient codex depository. Endless rows of books splayed out before them.  "Take your time with your decision. You will know which book to choose as it will speak to you".  At Azgarothetoth's urging, Sarah and Bob began their search...  
         </p>
         <div className='button-wrapper'>
             <button className='begin-button' onClick={back}>

@@ -14,7 +14,7 @@ const Brunch = () => {
             <img src={eat} alt="choose your path" />
         </div>
         <p className="page-text">
-            Good call! Sarah, Azagthothetoth, and her best friend, Bob, set off to brunch in order to prepare for the long journey ahead.  They feasted until they could feast no more.  Just when Sarah thought she would pop, Azagthothetoth leaned in with a stern look in his eye. 
+            Good call! Sarah, Azgarothetoth, and her best friend, Bob, set off to brunch in order to prepare for the long journey ahead.  They feasted until they could feast no more.  Just when Sarah thought she would pop, Azgarothetoth leaned in with a stern look in his eye. 
         </p>
         <p className="page-text">
             {/* "Your journey is not quite done. You still must face the ultimate test in order to acquire the treasure you seek." Her curiosity peaked, Sarah listened closely... */}

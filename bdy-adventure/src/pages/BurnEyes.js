@@ -23,7 +23,7 @@ const BurnEyes = () => {
 
                 <div className='button-wrapper'>
                     <button className='begin-button' onClick={back}>
-                        Azagthothetoth revives you!
+                        Azgarothetoth revives you!
                     </button>
                 </div>
             </div>

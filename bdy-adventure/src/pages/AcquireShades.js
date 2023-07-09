@@ -21,7 +21,7 @@ const AcquireShades = () => {
                 <img src={sunglasses} alt="choose your path" />
             </div>
             <p className="page-text">
-                Azgarothetoth reaches into the flap of his mystical robe and producing a set of eye armor to protect Sarah from the harmful death rays that plagued her path.
+            Azgarothetoth reaches into the flap of his mystical robe and producing a set of eye armor to protect Sarah from the harmful death rays that plagued her path.
             </p>
             <p className="page-text">
                 Now that Sarah had her protective wear her and Bob were ready for the next phase of the adventure
