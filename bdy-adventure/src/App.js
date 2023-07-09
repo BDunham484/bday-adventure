@@ -13,6 +13,8 @@ import Brunch from "./pages/Brunch";
 import Library from "./pages/Library";
 import PageFive from "./pages/PageFive";
 import PageSix from "./pages/PageSix";
+import PageSeven from "./pages/PageSeven";
+import PageEight from "./pages/PageEight";
 
 function App() {
   return (
@@ -71,6 +73,14 @@ function App() {
                   <Route
                     path="/PageSix"
                     element={<PageSix />}
+                  />
+                  <Route
+                    path="/PageSeven"
+                    element={<PageSeven />}
+                  />
+                  <Route
+                    path="/PageEight"
+                    element={<PageEight />}
                   />
                   {/* <Route path="/profile">
                     <Route path=":username" element={<Profile />} />

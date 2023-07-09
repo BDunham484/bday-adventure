@@ -10,8 +10,7 @@ const PageSix = () => {
     const nav = useNavigate();
 
     const nextPage = () => {
-        // nav('/PageFour')
-        console.log('next page')
+        nav('/PageSeven')
     }
 
     const back = () => {
@@ -46,7 +45,7 @@ const PageSix = () => {
                 Now that Sarah was fully equipped, she and her best friend, Bob, set forth towards the beasts lair to face their final challenge.
             </p>
             <p className='page-text'>
-                After a traversing the forest path a great tree rose before them.  As they approached a purple mist begain to swirl before them and take shape.  From within the mist rose the Golden Beast.  It smelled the air and began to whail in high pitched screech as it sensed the presence of Sarah and Bob. Sarah held forth orb and the Beast's attention shifted towards the bauble. With a grunt Sarah hefted the orb a great distance into the forest. The Beast lunged after the orb without hesitation and dissapered into the forest after it.
+                After a traversing the forest path a great tree rose before them.  As they approached a purple mist begain to swirl before them and take shape.  From within the mist rose the Golden Beast.  It smelled the air and began to whail in high pitched screech as it sensed the presence of Sarah and Bob. Sarah held forth orb and the Beast's attention shifted towards the bauble. With a grunt Sarah hefted the orb a great distance into the forest. The Beast lunged after the orb without hesitation and disapeared into the forest after it.
             </p>
             <div className='button-wrapper'>
                 <button className='begin-button' onClick={back}>
